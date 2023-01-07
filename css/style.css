@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* banner css  */
+
+.banner {
+  background-image: url(../img/banner/banner-bg.png);
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: end;
+  padding-right: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 65px;
+  color: white;
+}
+.banner-description {
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  margin: 24px 0px 30px;
+}
+.banner-btn {
+  font-size: 20px;
+  padding: 20px 25px;
+  border: 0px;
+  border-radius: 8px;
+  color: #005fac;
+  font-weight: 600;
+}
+
+/* wanna do section start here  */
+
+.wanna-do {
+  height: 800px;
+}
+
+.wanna-do-title h2 {
+  font-size: 45px;
+  text-align: center;
+  padding: 140px 0px 50px;
+}
+
+.box-main {
+  height: 396px;
+  width: 320px;
+  background-color: #15acdc;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box-main h3 {
+  font-size: 35px;
+  color: #ffffff;
+  padding: 30px 0px 20px;
+  font-weight: 600;
+}
+.box-main p {
+  padding: 0px 25px 20px;
+  color: #ffffff;
+  line-height: 22px;
+}
+.box-main a {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 3px solid #fff;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 65px;
+}
+
+#box-main-2 {
+  background-color: #016fb6;
+}
+/* wanna do section end here  */
+
+/* img section start here  */
+
+.img-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 175px;
+  height: 850px;
+}
+
+.img-title h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.img-title p {
+  font-weight: 400;
+  color: #444343;
+  padding: 20px 0px 15px;
+  line-height: 28px;
+}
+
+.img-title ul li {
+  list-style: none;
+  color: #444343;
+  padding: 3px 0px;
+}
+
+/* img section end here  */
