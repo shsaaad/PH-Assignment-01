@@ -161,4 +161,32 @@
   padding-right: 25px;
 }
 
-/* My plan section end  */ ;
+/* My plan section end  */
+
+/* watch section start  */
+
+.watch-section {
+  height: 400px;
+}
+
+.img-gradient {
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+}
+
+.img-gradient img {
+  width: 800px;
+}
+
+.img-gradient::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to right, #005fac, #ffff000e);
+  margin-top: -215px;
+  height: 212px;
+  width: 100%;
+  content: "";
+}
+
+/* watch section end  */
