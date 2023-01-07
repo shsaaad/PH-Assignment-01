@@ -1,3 +1,5 @@
+/* ( Please Notice : MY Monitor resolution 1366 x 768 ! & I work on 80% zoom on Chorome  ) */
+
 * {
   margin: 0;
   padding: 0;
@@ -210,4 +212,76 @@
   border-radius: 5px;
   border: 0px;
 }
+
 /* watch section end  */
+
+/* Footer part start here  */
+
+.footer {
+  height: 475px;
+  background-color: #151414;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 120px;
+}
+
+.footer-text h1 {
+  font-size: 45px;
+  padding: 20px 0px 15px;
+}
+
+.footer-text p {
+  line-height: 28px;
+}
+
+#footer-decsrip {
+  margin: 15px 0px;
+}
+
+.social-icon {
+  margin-top: 20px;
+}
+
+.social-icon img {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.footer-btn {
+  margin-right: 80px;
+}
+
+.footer-btn h4 {
+  font-size: 28px;
+  color: #fff;
+  margin: 20px 0px;
+  font-weight: 600;
+}
+
+.footer-btn input {
+  padding: 16px 130px 16px 16px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+
+::placeholder {
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer-btn button {
+  padding: 18px 30px;
+  font-size: 20px;
+  background-color: #016fb6;
+  color: #fff;
+  font-weight: 500;
+  border: 0;
+  border-radius: 7px;
+}
+
+/* Footer part end here  */
