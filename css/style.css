@@ -166,7 +166,14 @@
 /* watch section start  */
 
 .watch-section {
-  height: 400px;
+  height: 370px;
+  position: relative;
+}
+
+.watch-text {
+  position: absolute;
+  top: 8.5%;
+  left: 29%;
 }
 
 .img-gradient {
@@ -186,7 +193,21 @@
   margin-top: -215px;
   height: 212px;
   width: 100%;
+  border-radius: 5px;
   content: "";
 }
 
+.watch-text {
+  color: #fff;
+}
+
+.watch-btn {
+  color: #15acdc;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 13px 17px;
+  border-radius: 5px;
+  border: 0px;
+}
 /* watch section end  */
